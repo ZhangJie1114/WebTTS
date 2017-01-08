@@ -1,0 +1,89 @@
+@charset "utf-8";
+/***********************CSS RESET*********************/
+html{
+	height: 100%;
+}
+body{
+	font:12px "microsoft yahei";
+	color: #565656;
+	background:url(../images/cloud.png) 0 bottom repeat-x  #049ec4;
+	-webkit-animation: animate-cloud 20s linear infinite;
+	-moz-animation: animate-cloud 20s linear infinite;
+	-ms-animation: animate-cloud 20s linear infinite;
+	-o-animation: animate-cloud 20s linear infinite;
+	animation: animate-cloud 20s linear infinite;
+	width: 100%;
+	height: auto;
+}
+@-webkit-keyframes animate-cloud {
+  from {
+    background-position: 600px 100%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes animate-cloud {
+  from {
+    background-position: 600px 100%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+@-ms-keyframes animate-cloud {
+  from {
+    background-position: 600px 100%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes animate-cloud {
+  from {
+    background-position: 600px 100%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+UL{
+	list-style-type:none;
+}
+A{
+	font-family:"微软雅黑","黑体","宋体",Verdana,Arial,Helv,Helvetica,sans-serif;
+	text-decoration:none;
+}
+
+.box{
+	height:auto;
+	width:100%;	
+}
+#option{
+	margin-left: 34%;
+	margin-right: auto;
+	margin-top:20%;
+}
+.password{
+	width:400px;
+	height:30px;
+	font-size:18px;
+	margin:10px auto;
+}
+.reset{
+	height:30px;
+	width:100px;	
+	background-color:#19B4EA;
+	color:#FFF;
+	font-size:16px;
+}
+.submit{
+	height:30px;
+	width:100px;
+	margin-left:200px;
+	background-color:#19B4EA;
+	color:#FFF;
+	font-size:16px;
+}
+
+
